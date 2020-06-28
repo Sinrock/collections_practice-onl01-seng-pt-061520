@@ -5,5 +5,5 @@ end
 
 array = [9, 7, 34, 30]
 def sort_array_desc(array)
-  return array.sort {reverse}
+  return array.sort {reverse!}
 end
