@@ -9,3 +9,10 @@ def sort_array_desc(array)
     right <=> left
   end
 end
+
+array = ["dog", "fish", "pony", "hiphopanonymous"]
+def sort_array_char_count(array)
+  array.sort do |left, right|
+    left.length <=> right.length
+  end
+end
